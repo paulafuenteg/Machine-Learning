@@ -3,7 +3,9 @@
 Repositorio de los ejercicios de pair programming de estadística y Machine Learning  desarrollados *Bootcamp* de [Adalab](https://adalab.es/#) de [Analistas de Datos](https://adalab.es/bootcamp-data/): :woman_technologist:
 
 ### Índice
-- [Estadística]
+- [Estadística](#estadistica)
+    - [Estadística Estructura del repositorio](#estadistica-estructura-del-repositorio)
+    - [Estadística Lineal Biblioteca](#estadistica-bibliotecas)
 - [Regresion Lineal](#regresion-lineal)
     - [Regresion Lineal Estructura del repositorio](#regresion-lineal-estructura-del-repositorio)
     - [Regresion Lineal Biblioteca](#regresion-lineal-bibliotecas)
@@ -12,7 +14,60 @@ Repositorio de los ejercicios de pair programming de estadística y Machine Lear
     - [Regresion Logistica Biblioteca](#regresion-logistica-biblioteca)
 
 ***
-   
+- **datos** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/datos)  
+    Aquí encontramos todos los ficheros que hemos ido utilizando a lo largo de todos los ejercicios  
+
+### **`Estadística`**
+
+Utilizamos el *DataFrame* [Sephora Website](https://www.kaggle.com/datasets/raghadalharbi/all-products-available-on-sephora-website?resource=download)
+
+|Columna| Tipo de dato | Descripcion |
+|-------|--------------|-------------|
+|**id**| int |	ID del producto.
+|**brand**	| string |	Marca del producto
+|**category**	| string |	La categoría del producto
+|**name**	| string | Nombre del producto
+|**size**	| string |	Tamaño del producto
+|**rating**	| Float |	La valoración del producto
+|**love**| int |    Numero de personas que les gusta el producto
+|**price**	| float |	Precio del producto
+|**value_price**| float|	Valor del producto
+|**URL**| string|	Link del producto
+|**MarketingFlags**| Bool |	Si se venden exclusivamente online
+|**options**| string |	 Opciones de color y tamaños
+|**details**| string |	 Detalles del producto
+|**how_to_use**| string |	Instrucciones del producto
+|**ingredients**| string |	 Ingredientes
+|**online_only**| int |	 Si el producto se vende solo online
+|**exclusive**| int |	 Si el producto se vende exclusivamente en la web de Sephora
+|**limited_edition**| int |	 Si el producto es edición limitada
+|**limited_time_offer**| int |	 Si el producto tiene un tiempo limitado de oferta
+
+### **Estadística Estructura del Repositorio**:
+
+- **Estadística** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/Estadistica)  
+En los siguientes ficheros podemos encontar nuestro estudio sobre el dataset de la web de Sephora, explorando sus datos principalmente de los estadísticos de los precios de sus productos.
+    - [Lecc01-Introducción](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-Estadistica-1.ipynb)
+    - [Lecc02-Lecc02-Cuartiles_estadistica_contigencia](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-Estadistica-2.ipynb)
+    - [Lecc03-Contigencia_correlacion_sesgos_int_confianza](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-Estad%C3%ADstica-3.ipynb)
+    - [Lecc04-Repaso](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-repaso-conceptos-resumidos.ipynb) - En este repaso se utiliza la base de datos de [Top 1000s in IMDB](https://www.kaggle.com/datasets/ramjasmaurya/top-250s-in-imdb)
+
+### **Estadística Bibliotecas:**
+```
+# Tratamiento de datos
+import numpy as np
+import pandas as pd
+
+# Test estadisticos
+from scipy.stats import skew
+import scipy.stats as st
+
+# Gráficos
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+```
+
 ### **`Regresion Lineal`**
 
 Empezamos con explorar el *Dataframe* que tenemos y decidir cual será nuestra variable respuesta.    
@@ -37,11 +92,8 @@ Utilizamos el *DataFrame* [*Global Disaster Risk*](https://www.kaggle.com/datase
 ---
 
 ### **Regresion Lineal Estructura del Repositorio**:
-- **datos** - [Carpeta](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/tree/main/datos)  
-    Aquí encontramos todos los ficheros que hemos ido utilizando.  
-    La serie de ficheros de  <span style="color:lightblue">Regresion Lineal</span> están nombrado *world_risk_index* y hay diferentes formados que hemos ido guardando a lo largo de nuestro *pair*.
 
-- **deepl** - [Carpeta](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/tree/main/deepl)
+- **deepl** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/datos)
 Aquí encontramos los ficheros en lo que hemos realizado la traducción de la columna *region*.  
 Enlace con toda la info sobre deepL [deepl-Python](https://github.com/DeepLcom/deepl-python).
 
@@ -65,7 +117,6 @@ Aplicamos la Regresion lineal, *Decision Tree* y *Random Forest*.
     - [Lecc12-Random_Forest](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc12-Random_Forest.ipynb)
 
 ---
-
 
 
 ### **Regresion Lineal Bibliotecas:**
@@ -147,9 +198,6 @@ Aplicamos ambos el *Decision Tree* y el *Random Forest*.
 
 > 🔺🔺 **ATENCÍON** 🔺🔺  
 > Estos ultimos dos `jupiters`,están ejecutado directamente en el `google colab`.  
-
-- **datos** - [Carpeta](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/tree/main/datos)    
-    La serie de ficheros de Regresion Logistica están nombrados como resultado_fraude, y como explicado en 
 
 - **Regresion Logistica** - [Carpeta](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/tree/main/Regresion%20Logistica) 
 
