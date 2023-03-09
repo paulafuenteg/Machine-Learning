@@ -3,9 +3,9 @@
 Repositorio de los ejercicios de pair programming de estadística y Machine Learning  desarrollados *Bootcamp* de [Adalab](https://adalab.es/#) de [Analistas de Datos](https://adalab.es/bootcamp-data/): :woman_technologist:
 
 ### Índice
-- [Estadística](#estadistica)
-    - [Estadística Estructura del repositorio](#estadistica-estructura-del-repositorio)
-    - [Estadística Lineal Biblioteca](#estadistica-bibliotecas)
+- [Estadística](https://github.com/paulafuenteg/Machine-Learning#estad%C3%ADstica)
+    - [Estadística Estructura del repositorio](https://github.com/paulafuenteg/Machine-Learning#estad%C3%ADstica-estructura-del-repositorio)
+    - [Estadística Lineal Biblioteca](https://github.com/paulafuenteg/Machine-Learning#estad%C3%ADstica-bibliotecass)
 - [Regresion Lineal](#regresion-lineal)
     - [Regresion Lineal Estructura del repositorio](#regresion-lineal-estructura-del-repositorio)
     - [Regresion Lineal Biblioteca](#regresion-lineal-bibliotecas)
@@ -14,7 +14,8 @@ Repositorio de los ejercicios de pair programming de estadística y Machine Lear
     - [Regresion Logistica Biblioteca](#regresion-logistica-biblioteca)
 
 ***
-- **datos** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/datos)  
+
+**datos** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/datos)  
     Aquí encontramos todos los ficheros que hemos ido utilizando a lo largo de todos los ejercicios  
 
 ### **`Estadística`**
@@ -47,10 +48,10 @@ Utilizamos el *DataFrame* [Sephora Website](https://www.kaggle.com/datasets/ragh
 
 - **Estadística** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/Estadistica)  
 En los siguientes ficheros podemos encontar nuestro estudio sobre el dataset de la web de Sephora, explorando sus datos principalmente de los estadísticos de los precios de sus productos.
-    - [Lecc01-Introducción](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-Estadistica-1.ipynb)
-    - [Lecc02-Lecc02-Cuartiles_estadistica_contigencia](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-Estadistica-2.ipynb)
-    - [Lecc03-Contigencia_correlacion_sesgos_int_confianza](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-Estad%C3%ADstica-3.ipynb)
-    - [Lecc04-Repaso](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/modulo-2-repaso-conceptos-resumidos.ipynb) - En este repaso se utiliza la base de datos de [Top 1000s in IMDB](https://www.kaggle.com/datasets/ramjasmaurya/top-250s-in-imdb)
+    - [Lecc01-Introducción](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/Lecc01-Introducci%C3%B3n.ipynb)
+    - [Lecc02-Lecc02-Cuartiles_estadistica_contigencia](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/Lecc02-Cuartiles_estadistica_contigencia.ipynb)
+    - [Lecc03-Contigencia_correlacion_sesgos_int_confianza](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/Lecc03-Contigencia_correlacion_sesgos_int_confianza.ipynb)
+    - [Lecc04-Repaso](https://github.com/paulafuenteg/Machine-Learning/blob/main/Estadistica/Lecc04-Repaso.ipynb) - En este repaso se utiliza la base de datos de [Top 1000s in IMDB](https://www.kaggle.com/datasets/ramjasmaurya/top-250s-in-imdb)
 
 ### **Estadística Bibliotecas:**
 ```
@@ -93,28 +94,28 @@ Utilizamos el *DataFrame* [*Global Disaster Risk*](https://www.kaggle.com/datase
 
 ### **Regresion Lineal Estructura del Repositorio**:
 
-- **deepl** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/datos)
+- **deepl** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/Regresion%20Lineal/deepls)
 Aquí encontramos los ficheros en lo que hemos realizado la traducción de la columna *region*.  
 Enlace con toda la info sobre deepL [deepl-Python](https://github.com/DeepLcom/deepl-python).
 
-- **Regresion Lineal** - [Carpeta](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/tree/main/Regresion%20Lineal)  
+- **Regresion Lineal** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/Regresion%20Lineal)  
 En los siguientes ficheros podemos encontar nuestro estudio sobre los datos, utilizando la metodologia EDA, averiguamos si hay nulos, *outliers*, realizamos graficas.  
 Averiguamos correlaciones, normalizamos, estandardizamos y aplicamos el *encoding* a los datos.  
 Aplicamos la Regresion lineal, *Decision Tree* y *Random Forest*.  
 
 
-    - [Lecc01-Intro_ML](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc01-Intro_ML.ipynb)
-    - [Lecc02-Test_Estadisticos](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc02-Test_Estadisticos.ipynb)
-    - [Lecc03-Correlación_Covarianza](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc03-Correlacion_Covarianza.ipynb)
-    - [Lecc04-Asunciones](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc04-Asunciones.ipynb)
-    - [Lecc05-Normalización](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc05-Normalizaci%C3%B3n.ipynb)
-    - [Lecc06-Estandardizacion](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc06-Estandarizacion.ipynb)
-    - [Lecc07-Anova](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc07-Anova.ipynb)
-    - [Lecc08-Encoding](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc08-Encoding.ipynb)
-    - [Lecc09-Regresion_lineal_Intro](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc09-Regresion_lineal_Intro.ipynb)
-    - [Lecc10-Regresion_lineal_Metricas](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc10-Regresion-lineal_Metricas.ipynb)
-    - [Lecc11-Decision_tree](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc11-Decision_Tree.ipynb)
-    - [Lecc12-Random_Forest](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Lineal/Lecc12-Random_Forest.ipynb)
+    - [Lecc01-Intro_ML](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc01-Intro_ML.ipynb)
+    - [Lecc02-Test_Estadisticos](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc02-Test_Estadisticos.ipynb)
+    - [Lecc03-Correlación_Covarianza](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc03-Correlacion_Covarianza.ipynb)
+    - [Lecc04-Asunciones](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc04-Asunciones.ipynb)
+    - [Lecc05-Normalización](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc05-Normalizaci%C3%B3n.ipynb)
+    - [Lecc06-Estandardizacion](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc06-Estandarizacion.ipynb)
+    - [Lecc07-Anova](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc07-Anova.ipynb)
+    - [Lecc08-Encoding](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc08-Encoding.ipynb)
+    - [Lecc09-Regresion_lineal_Intro](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc09-Regresion_lineal_Intro.ipynb)
+    - [Lecc10-Regresion_lineal_Metricas](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc10-Regresion-lineal_Metricas.ipynb)
+    - [Lecc11-Decision_tree](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc11-Decision_Tree.ipynb)
+    - [Lecc12-Random_Forest](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Lineal/Lecc12-Random_Forest.ipynb)
 
 ---
 
@@ -199,14 +200,14 @@ Aplicamos ambos el *Decision Tree* y el *Random Forest*.
 > 🔺🔺 **ATENCÍON** 🔺🔺  
 > Estos ultimos dos `jupiters`,están ejecutado directamente en el `google colab`.  
 
-- **Regresion Logistica** - [Carpeta](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/tree/main/Regresion%20Logistica) 
+- **Regresion Logistica** - [Carpeta](https://github.com/paulafuenteg/Machine-Learning/tree/main/Regresion%20Logistica) 
 
-    - [Lecc01-EDA](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Logistica/Lecc01-EDA.ipynb)  
-    - [Lecc02-Preparacion_Datos](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Logistica/Lecc02-Preparacion_Datos.ipynb)  
-    - [Lecc03-Ajuste](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Logistica/Lecc03-Ajuste.ipynb)  
-    - [Lecc04-Metricas](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Logistica/Lecc04-Metricas.ipynb)  
-    - [Lecc05-Decision_Tree](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Logistica/Lecc05-Decision_Tree.ipynb)  
-    - [Lecc06-Random_Forest](https://github.com/Adalab/DA-promoC-Mod3-sprint1-VannayPaula/blob/main/Regresion%20Logistica/Lecc06-Random_Forest.ipynb)  
+    - [Lecc01-EDA](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Logistica/Lecc01-EDA.ipynb)  
+    - [Lecc02-Preparacion_Datos](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Logistica/Lecc02-Preparacion_Datos.ipynb)  
+    - [Lecc03-Ajuste](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Logistica/Lecc03-Ajuste.ipynb)  
+    - [Lecc04-Metricas](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Logistica/Lecc04-Metricas.ipynb)  
+    - [Lecc05-Decision_Tree](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Logistica/Lecc05-Decision_Tree.ipynb)  
+    - [Lecc06-Random_Forest](https://github.com/paulafuenteg/Machine-Learning/blob/main/Regresion%20Logistica/Lecc06-Random_Forest.ipynb)  
 
 ---    
 

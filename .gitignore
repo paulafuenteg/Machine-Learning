@@ -131,3 +131,4 @@ dmypy.json
 datos/card_transdata.csv
 datos/card_transdata_esta.csv
 datos/card_transdata_balanceado.csv
+.DS_Store
